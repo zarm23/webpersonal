@@ -1,0 +1,40 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Acerca de{% endblock %}
+
+{% block background %}{% static 'core/img/jilguero-rr.jpg' %}{% endblock %}
+
+{% block header %}
+
+  <h4>Acerca de</h4>
+  <span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+  <div class="row">
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+      <img class="img-fluid avatar"
+        src="{% static 'core/img/zarm.jpg' %}" alt="" />
+    </div>
+    <div class="col-lg-7 col-md-8">
+      <h2 class="section-heading">Arnaldo Ramón Martinez</h2>
+      <p>Nacido en Mones Cazón, provincia de Buenos Aires donde cursa
+        la educación primaria.
+        Realizó estudios secundarios en la ENET N° 1 de la ciudad
+        de Pehuajó, recibiendo título de Técnico Nacional Electromecánico.
+        Luego, radicado en la ciudad de Neuquén, inicia estudios terciarios
+        en la Universidad Nacional del Comahue en la carrera de Ingeniería
+        Industrial. Dejando inclonclusos estos, al mudarse a la ciudad de
+        Comodoro Rivadavía donde actualmente está establecido. Jubilado en
+        la industria del petróleo, ha realizado cursos de programación en
+        modalidad a distancia en la UTN, tal como Java, PHP y MySQL.
+        Tambien incursionando en desarrollo autodidacta.
+      </p>
+    </div>
+
+  </div>
+
+
+{% endblock %}

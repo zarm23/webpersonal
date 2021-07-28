@@ -1,0 +1,32 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Contacto{% endblock %}
+
+{% block background %}{% static 'core/img/jilguero-rr.jpg' %}{% endblock %}
+
+{% block header %}
+  <h4>Contacto</h4>
+  <span class="subheading">Asesoria</span>
+{% endblock %}
+
+{% block content %}
+  <p>
+    Puede dirigirse a: <a href="mailto:arnaldo.rmartinez@gmail.com">Email</a>
+  </p>
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <p>
+        Lorem ipsum dolor sit amet, ...
+      </p>
+      <br>
+      <p>
+        <b>Teléfono:</b> +54 09 297 4904923
+      </p>
+      <p>
+        <b>Honorarios:</b> 10 E/h (precio base)
+      </p>
+    </div>
+  </div>
+  {% endblock %}
